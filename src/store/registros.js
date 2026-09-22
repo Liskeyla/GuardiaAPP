@@ -1,9 +1,11 @@
 // En producción esto se reemplaza por el API del DMS y una notificación push real al dispositivo de garita.
-// Los dos prototipos (chofer y garita) solo se sincronizan en el mismo navegador/dispositivo porque viven en localStorage.
-// Para mostrar el flujo entre dos equipos distintos hace falta un backend real.
 
 const KEY = "rfs_pendientes_v2";
 const PATIO_KEY = "rfs_patio_guardia";
+const CON_CONTENEDOR = ["IMPORTACION", "REPOSICION"];
+
+export const llevaContenedor = (op) => CON_CONTENEDOR.includes(op);
+
 
 function hhmm(desfaseMin) {
   const d = new Date(Date.now() + desfaseMin * 60000);

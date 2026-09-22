@@ -1,11 +1,11 @@
 {
-  "name": "Poncheo Digital — RFS Ecuador",
-  "short_name": "Poncheo Digital",
-  "description": "Registro de conductor por número de turno",
-  "start_url": ".",
+  "name": "Guardia APP — RFS Ecuador",
+  "short_name": "Guardia APP",
+  "description": "Cola de poncheos por validar en garita",
+  "start_url": "/garita/cola",
   "display": "standalone",
-  "background_color": "#3A4674",
-  "theme_color": "#3A4674",
+  "background_color": "#3F4A7E",
+  "theme_color": "#3F4A7E",
   "lang": "es",
   "icons": [
     {

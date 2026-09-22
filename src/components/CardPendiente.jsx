@@ -1,4 +1,4 @@
-import { llevaContenedor } from "../services/turnoService";
+import { llevaContenedor } from "../store/registros";
 
 function Fila({ etiqueta, valor, resaltado }) {
   return (
